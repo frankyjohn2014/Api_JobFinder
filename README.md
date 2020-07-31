@@ -1,0 +1,1 @@
+frank@frank2014:~/Desktop/scraping/scraping_django_3$ celery -A scraping_service worker -B -l INFO

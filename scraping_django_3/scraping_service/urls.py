@@ -26,4 +26,5 @@ urlpatterns = [
     path('create/', VCreate.as_view(), name='create'),
     path('update/<int:pk>', VUpdate.as_view(), name='update'),
     path('delete/<int:pk>', VDelete.as_view(), name='delete'),
+    path('api/v1/', include('scraping.api.urls')),
 ]
