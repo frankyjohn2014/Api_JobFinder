@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'scraping',
     'accounts',
     'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
